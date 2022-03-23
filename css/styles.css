@@ -1,3 +1,55 @@
 body {
-  background-color: blue;
+  margin: 0;
+  text-align: center;
+  /* Works only for block elements without width set */
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #B7CADB;
+  padding-top: 100px;
+  position: relative;
+}
+
+.bottom-container {
+
+}
+
+.middle-container {
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.topcloud {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 20%;
+  bottom: 300px;
+}
+
+.round-headshot {
+  border-radius: 50px;
+  height: 150px;
+  width: 150px;
 }
