@@ -9,13 +9,13 @@ h1 {
   margin-top: 0;
   font-size: 550%;
   font-family: 'Sacramento', cursive;
-  color: #5B7DB1;
+  color: #61A4BC;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 250%;
-  color: #5B7DB1;
+  color: #61A4BC;
   font-weight: normal;
 }
 
@@ -25,7 +25,12 @@ h3 {
 }
 
 a {
-  color: #61A4BC;
+  color: #1A132F;
+}
+
+hr {
+  border-top: 8px dotted gray;
+  width: 50px;
 }
 
 .top-container {
@@ -35,7 +40,7 @@ a {
 }
 
 .bottom-container {
-
+  background-color: #9ADCFF;
 }
 
 .middle-container {
@@ -44,6 +49,10 @@ a {
 
 .pro {
   text-decoration: underline;
+}
+
+.profile {
+  margin: 50px auto 75px auto;
 }
 
 .topcloud {
@@ -62,5 +71,57 @@ a {
   border-radius: 50px;
   height: 150px;
   width: 150px;
-  margin-top: 20px;
+}
+
+.skills {
+  margin-top: 75px;
+}
+
+.skill-row {
+  max-width: 50%;
+  margin: 50px auto;
+  line-height: 2;
+}
+
+.skill-bubble-1 {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-bubble-2 {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 75px auto 50px auto;
+}
+
+.btn {
+  background: #61A4BC;
+  background-image: -webkit-linear-gradient(top, #61A4BC, #1A132F);
+  background-image: -moz-linear-gradient(top, #61A4BC, #1A132F);
+  background-image: -ms-linear-gradient(top, #61A4BC, #1A132F);
+  background-image: -o-linear-gradient(top, #61A4BC, #1A132F);
+  background-image: linear-gradient(to bottom, #61A4BC, #1A132F);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+  margin-top: 50px;
 }
