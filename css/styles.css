@@ -33,6 +33,10 @@ hr {
   width: 50px;
 }
 
+p {
+  line-height: 2;
+}
+
 .top-container {
   background-color: #B7CADB;
   padding-top: 100px;
@@ -53,6 +57,7 @@ hr {
 
 .profile {
   margin: 50px auto 75px auto;
+  width: 50%;
 }
 
 .topcloud {
@@ -80,7 +85,6 @@ hr {
 .skill-row {
   max-width: 50%;
   margin: 50px auto;
-  line-height: 2;
 }
 
 .skill-bubble-1 {
